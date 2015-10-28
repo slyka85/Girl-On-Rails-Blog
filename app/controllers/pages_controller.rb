@@ -5,4 +5,6 @@ class PagesController < ApplicationController
 	end
 	def contact
 	end
+	def posts
+	end
 end
