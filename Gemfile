@@ -48,3 +48,4 @@ end
 
 gem 'high_voltage', '~> 2.4.0'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'friendly_id', '~> 5.1'
