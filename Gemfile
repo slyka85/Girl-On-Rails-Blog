@@ -48,3 +48,4 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.0', '>= 3.0.7'
 gem 'will_paginate-bootstrap'
+gem 'devise', '~> 3.5', '>= 3.5.2'
