@@ -18,15 +18,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="http://slyka85.github.io/" target="_blank"f>Personal Site</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
+
+                <li ><%= link_to "HOME", root_path %></li>
+                <li ><%= link_to "ABOUT ME", 'http://slyka85.github.io/', :target => "_blank" %></li>
+                <li ><%= link_to "CONTACT", contact_path %></li>
+ 
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

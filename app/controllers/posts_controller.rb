@@ -43,8 +43,7 @@ class PostsController < ApplicationController
 		params.require(:post).permit(:title, :content, :slug)
 	end
 
-	def contact
-	end
+
 
 
 	def find_post
