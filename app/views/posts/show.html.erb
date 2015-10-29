@@ -34,14 +34,15 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('http://rpgmaker.net/media/content/users/4854/locker/NLBackground.jpg')">
+    <header class="intro-header" style="background-image: url('<%= @post.image_link%>')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1><%= @post.title%></h1>
+                        <h3><span><%= @post.title%></span></h3>
+
                         <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
-                        <span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span>
+                        <span class="meta">Posted by on <%= @post.created_at.strftime("%A, %b %d") %></span>
                     </div>
                 </div>
             </div>

@@ -46,3 +46,5 @@ end
 gem 'high_voltage', '~> 2.4.0'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'friendly_id', '~> 5.1'
+gem 'will_paginate', '~> 3.0', '>= 3.0.7'
+gem 'will_paginate-bootstrap'
