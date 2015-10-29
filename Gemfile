@@ -51,3 +51,4 @@ gem 'will_paginate-bootstrap'
 gem 'devise', '~> 3.5', '>= 3.5.2'
 gem 'coderay', '~> 1.1'
 gem 'redcarpet', '>= 3.3.3'
+gem 'jquery-validation-rails' # for validating forms
