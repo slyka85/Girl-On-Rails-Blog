@@ -223,6 +223,9 @@ hr.small {
   margin-top: 30px;
   margin-bottom: 10px;
 }
+.post-title a {
+  color: #880E68;
+}
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
@@ -400,4 +403,11 @@ body {
 .pagination>li:first-child>a, .pagination>li:first-child>span, .pagination>li:last-child>a, .pagination>li:last-child>span  {
     background-color: white;
     color: #42B7CA;
+}
+#post_content {
+  height: 500px;
+  width: 90%;
+}
+#post_title {
+  width: 85%;
 }
