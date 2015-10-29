@@ -34,7 +34,7 @@ group :development, :test do
 	gem 'byebug'
 	gem 'web-console', '~> 2.0'
 	gem 'spring'
-	gem 'sqlite3-ruby'
+	gem 'sqlite3'
 end
 
 
@@ -50,4 +50,4 @@ gem 'will_paginate', '~> 3.0', '>= 3.0.7'
 gem 'will_paginate-bootstrap'
 gem 'devise', '~> 3.5', '>= 3.5.2'
 gem 'coderay', '~> 1.1'
-gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+gem 'redcarpet', '>= 3.3.3'
