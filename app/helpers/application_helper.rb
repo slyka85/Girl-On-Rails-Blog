@@ -14,7 +14,9 @@ module ApplicationHelper
 	    :fenced_code_blocks => true,
 	    :no_intra_emphasis => true,
 	    :autolink => true,
+	    :link_attributes => { rel: 'nofollow', target: "_blank" },
 	    :strikethrough => true,
+	    :space_after_headers => true, 
 	    :lax_html_blocks => true,
 	    :superscript => true
 	  }
