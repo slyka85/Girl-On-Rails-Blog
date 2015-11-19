@@ -76,7 +76,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand {
     color: white;
-    padding: 20px;
+    padding-bottom: 10px !important;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
@@ -84,7 +84,7 @@ hr.small {
   }
   .navbar-custom .nav li a {
     color: white;
-    padding: 20px;
+    padding-bottom: 10px !important;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
@@ -347,7 +347,7 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-lg {
   font-size: 16px;
-  padding: 25px 35px;
+  navba5px 35px;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -419,3 +419,22 @@ body {
 #post_title {
   width: 85%;
 }
+
+.gps_ring {
+/*    border: 3px solid #999;*/
+/*    -webkit-border-radius: 30px;
+    height: 18px;
+    width: 18px;*/
+  /*  position: absolute;*/
+/*    left:20px;
+    top:214px;*/
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
