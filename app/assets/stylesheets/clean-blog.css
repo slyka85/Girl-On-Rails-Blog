@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 17px !important;
   color: #404040;
 }
 p {
@@ -25,12 +25,18 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+
+h2, .h2 {
+    font-size: 27px;
+}
 a {
   color: #404040;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+/*  color: #0085a1;*/
+  color: #CB2596 !important;
+  text-decoration: none !important;
 }
 a img:hover,
 a img:focus {
@@ -74,7 +80,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8) !important;
   }
   .navbar-custom .nav li a {
     color: white;
@@ -82,7 +88,7 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8) !important;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -140,7 +146,7 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 30px !important;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -176,7 +182,7 @@ hr.small {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 64px !important;
   }
 }
 .intro-header .post-heading h1 {
@@ -224,7 +230,9 @@ hr.small {
   margin-bottom: 10px;
 }
 .post-title a {
-  color: #880E68;
+/*  color: #880E68;*/
+  color: #8D62B9;
+
 }
 .post-preview > a > .post-subtitle {
   margin: 0;
@@ -233,7 +241,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 15px !important;
   font-style: italic;
   margin-top: 0;
 }
